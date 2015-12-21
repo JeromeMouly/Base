@@ -1,6 +1,6 @@
 "use strict";
 
-var app = {
+/*var app = {
 	config: {
 		url:"https://smp.ovh",
 		target:"#main"
@@ -17,4 +17,4 @@ var app = {
 
 $(document).ready(function(){
 	app.init();
-});
+});*/
