@@ -1,6 +1,6 @@
 {
-  "name": "base",
-  "version": "0.0.0",
+  "name": "PitchMeUp",
+  "version": "0.0.1",
   "description": "",
   "main": "inde.html",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SimplonTlse/Base.git"
+    "url": "https://github.com/JeromeMouly/PitchMeUp.git"
   },
   "author": "Amine El Ghayate",
   "license": "ISC",
