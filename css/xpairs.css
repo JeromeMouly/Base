@@ -24,6 +24,7 @@
 	display: inline;
 	text-align: center;
 	font-size: 30px;
+	padding-right: 60px;
 }
 
 #basdepage {
@@ -81,23 +82,18 @@ h3 {
 	font-size: 18px;
 } 
 
-.conteneurxpairs{
+
+.grid{
 	width: 960px;
-	padding: 40px;
 	margin: auto;
-	margin-bottom: 50px; 
-	border-style: solid;
+	text-align: center;
 }
 
-.blocsxpairs{
-	width: 30%;
-	border-style: solid;
+.ali-column{
+	width: 26%;
 	display: inline-block;
-	padding: 5px;
-	margin-right: 15px;
+	margin: 30px;
 }
-
 .imgjury{
-	width: 160px; 
-	height: auto;
+	max-width: 100%;
 }
