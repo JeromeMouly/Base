@@ -1,5 +1,15 @@
 "use strict";
 
+
+var myapp = new senna.App();
+myapp.setBasePath('/');
+myapp.addSurfaces('container');
+myapp.addRoutes(new senna.Route(/\w+\.html/, senna.HtmlScreen));
+senna.Screen.prototype.load = function() {
+	
+};
+
+
 var app = {
 	config: {
 		url:"https://smp.ovh",
@@ -17,4 +27,7 @@ var app = {
 
 $(document).ready(function(){
 	app.init();
+
 });
+
+
