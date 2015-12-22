@@ -1,5 +1,6 @@
 body {
 	/*margin-top:3em;*/
+	background-color: #fff;
 }
 
 /*.container {
@@ -11,7 +12,7 @@ body {
 #navbar {
 	width: 100%;
 	height: 80px;
-	background-color: #383437;
+	background-color: #0277BD;
 	margin: 0 auto;
 	top: 0;
 	font-family: Ubuntu;
@@ -36,15 +37,19 @@ body {
 	font-size: 30px;
 }
 
+a {
+	color: #fff;
+}
+
 #basdepage {
 	width: 100%;
 	height: 100px;
-	background-color: #383437;
+	background-color: #0277BD;
 	color: #fff;
 	text-align: center;
 	font-family: Ubuntu;
 	/*position: relative;*/
-	bottom: 0;
+	bottom: -20px;
 }
 
 ul.footer-contact {
@@ -55,16 +60,18 @@ h1 {
 	text-align: center;
 	padding-top: 50px;
 	font-family: Fugaz One;
-	font-size: 60px;
+	font-size: 100px;
+	color: #0277BD;
+	text-shadow: 2px 2px 1px #606060;
 }
 
 .bloc {
 	width: 960px;
-	height: 300px;
+	height: 400px;
 	vertical-align: middle;
 	margin-left: auto;
     margin-right: auto;
-    background: #cecece;
+    /*background: #cecece;*/
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: justify;
@@ -73,7 +80,7 @@ h1 {
 
 .presentation {
 	font-family: Ubuntu;
-	font-size: 16px;
+	font-size: 18px;
     vertical-align: middle;
 }
 
@@ -81,9 +88,11 @@ h2 {
 	text-align: center;
 	padding-bottom: 25px;
 	font-family: Fugaz One;
-	font-size: 45px;
+	font-size: 65px;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	color: #0277BD;
+	text-shadow: 2px 2px 1px #606060;
 }
 
 .next-meetup {
@@ -92,7 +101,7 @@ h2 {
 	vertical-align: middle;
 	margin-left: auto;
     margin-right: auto;
-    background: #cecece;
+    /*background: #cecece;*/
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: justify;
@@ -117,7 +126,7 @@ h3 {
 .link {
 	width: 300px;
 	height: 80px;
-	background-color: #383437;
+	background-color: #0277BD;
 	margin: 0;
 	padding: 0;
 	border: none;
