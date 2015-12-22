@@ -1,13 +1,14 @@
 body {
 	/*margin-top:3em;*/
 	background-color: #fff;
+
 }
 
-/*.container {
-	width:940px;
-	margin-left: auto;
-	margin-right:auto;
-}*/
+div.photo {
+	background-image: url(../img/accueil.jpg);
+	height: 850px;
+	vertical-align: middle;
+}
 
 #navbar {
 	width: 100%;
@@ -35,10 +36,15 @@ body {
 	display: inline;
 	text-align: center;
 	font-size: 30px;
+	padding-right: 60px;
 }
 
 a {
 	color: #fff;
+}
+
+a:hover {
+	color: #81d4fa;
 }
 
 #basdepage {
@@ -63,6 +69,16 @@ h1 {
 	font-size: 100px;
 	color: #0277BD;
 	text-shadow: 2px 2px 1px #606060;
+}
+
+h1.photo {
+	text-align: center;
+	padding-top: 300px;
+	color: #fff;
+}
+
+h2.photo {
+	color: #fff;
 }
 
 .bloc {
@@ -133,4 +149,19 @@ h3 {
 	font-family: Ubuntu;
 	font-size: 35px;
 	color: #fff;
+}
+
+.photo-pitcher {
+	width: 23%;
+	margin-right: 16px;
+	text-align: center;
+	border-radius: 120px;
+	border: 4px solid #0277BD;
+	display: inline-block;
+}
+
+#pitcher {
+	font-family: Fugaz One;
+	margin: 0 auto;
+    padding: 0 auto;
 }
