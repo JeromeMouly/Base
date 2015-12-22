@@ -28,6 +28,7 @@ body {
 	display: inline;
 	text-align: center;
 	font-size: 30px;
+	padding-right: 60px;
 }
 
 a {
@@ -52,35 +53,91 @@ ul.footer-contact {
 	padding-top: 35px;
 }
 
-h1.titre {
+.ui.grid {
+	width: 960px;
+	height: 800px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.five.wide.column {
+	font-family: Ubuntu;
+	display: inline-block;
+
+	margin: 0 auto;
+}
+
+.descriptionstartup {
+	padding: 5px; 
+	width: 305px;
+	height: 270px;
+	display: inline-block;
+	padding: 20px;
+	font-family: Ubuntu;
+	font-size: 18px;
+}
+
+.lienstartup {
+	color: #0277bd;
+	font-family: Fugaz One;
+	font-size: 18px;
+}
+
+h1{
 	text-align: center;
 	font-size: 60px;
 	font-family: Fugaz One;
 }
 
-.bloc {
-	width: 960px;
-	height: 1000px;
-	margin: 0 auto;
-	padding: 10px 10px 10px 10px;
+h2 {
+	text-align: center;
+	font-family: Fugaz One;
+	font-size: 25px;
 }
 
-.fivewidecolumn {
-	border: solid;
-	/* margin: 30px auto 20px;
-	padding: 20px; */
-	font-family: Ubuntu;
-	display: inline-block;
+h3 {
+	text-align: center;
 }
 
-.descriptionstartup {
-	/* border: solid; */
-	width: 305px;
-	height: 270px;
-	display: inline-block;
-	padding: 5px;
+img.myteleworker {
+	margin-left: 40px;
 }
 
-.lienstartup {
-	color: red;
+img.logobeecciz{
+	height: 67px;
+	width: 211px;
+	margin-left: 23px;
+}
+
+h4{
+	font-style: bold;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 40px;
+}
+
+img.smyler {
+	width: 211px;
+	height: 67px;
+	margin-left: 46px;
+}
+
+img.drivoo {
+	margin-left: 60px;
+}
+
+img.nirby {
+	width: 211px;
+	height: 67px;
+	margin-left: 40px;
+}
+
+img.nextui {
+	margin-left: 115px;
+}
+
+img.mamieregale {	
+	width: 211px;
+	height: 67px;
+	margin-left: 40px;
 }
