@@ -111,6 +111,10 @@ h2 {
 	text-shadow: 2px 2px 1px #606060;
 }
 
+h2.infomail {
+	font-family: Ubuntu;
+}
+
 .next-meetup {
 	width: 960px;
 	height: 300px;
@@ -152,7 +156,7 @@ h3 {
 }
 
 .photo-pitcher {
-	width: 23%;
+	/*width: 23%;*/
 	margin-right: 16px;
 	text-align: center;
 	border-radius: 120px;
@@ -164,4 +168,15 @@ h3 {
 	font-family: Fugaz One;
 	margin: 0 auto;
     padding: 0 auto;
+}
+
+.ui.grid {
+	width: 960px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.column {
+	width: 960px;
+	margin: 0 auto;
 }
