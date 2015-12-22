@@ -30,7 +30,7 @@ h1{
 }
 
 .imglieu {
-	width: 240px;
+	width: 280px;
 	height: auto;
 	float: left;
 	padding-right: 40px;
@@ -40,18 +40,21 @@ h1{
 p{
 	font-family: Ubuntu;
 	text-align: justify;
+	font-size: 18px;
 }
+
 
 h2 {
 	margin-left: 100px;
 	padding-bottom: 5px;
 	font-family: Fugaz One;
+	color:#0277bd;
 } 
 
 #navbar {
 	width: 100%;
 	height: 80px;
-	background-color: #383437;
+	background-color: #0277bd;;
 	margin: 0 auto;
 	top: 0;
 	font-family: Ubuntu;
@@ -74,17 +77,24 @@ h2 {
 	display: inline;
 	text-align: center;
 	font-size: 30px;
+	color: #FFF;
 }
 
 #basdepage {
 	width: 100%;
 	height: 100px;
-	background-color: #383437;
-	color: #fff;
+	background-color: #0277bd;
 	text-align: center;
 	font-family: Ubuntu;
 }
 
 ul.footer-contact {
 	padding-top: 35px;
+}
+
+a{
+	color:#fff;
+}
+a:hover{
+	color:#81d4fa;
 }
