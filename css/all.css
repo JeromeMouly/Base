@@ -305,20 +305,22 @@ p{
 }
 
 
-h2 {
+.xpairstitle {
 	padding-bottom: 5px;
-	font-family: Fugaz One;
+	font-family: Ubuntu;
 	color:#0277bd;
 	text-align: center;
+	margin: auto;
+	font-size: 30px;
 } 
 
-h3 {
-	padding-bottom: 5px;
+.xpairssubt {
 	color:black;
 	text-align: center;
 	font-family: Ubuntu;
 	text-align: justify;
 	font-size: 18px;
+	margin: auto;
 } 
 
 
@@ -326,6 +328,7 @@ h3 {
 	width: 960px;
 	margin: auto;
 	text-align: center;
+	margin-bottom: 60px;
 }
 
 .ali-column{
@@ -335,7 +338,23 @@ h3 {
 }
 .imgjury{
 	max-width: 100%;
+	width: 180px;
+	height: 180px;
 }
+
+.E{
+	text-decoration: none;
+	color: black;
+}
+
+.xpairs{
+	font-size: 100px;
+	color: #0277BD;
+	text-shadow: 2px 2px 1px #606060;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
 
 /* -- Lieux -- */
 
