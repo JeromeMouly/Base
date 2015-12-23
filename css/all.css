@@ -407,7 +407,7 @@ p {
 	font-family: Ubuntu;
 	font-size: 35px;
 	color: #fff;
-
+}
 
 /* -- Xpairs -- */
 
@@ -453,15 +453,9 @@ p {
 	margin-bottom: 60px;
 }
 
-.ali-column{
-	width: 26%;
-	display: inline-block;
-	margin: 30px;
-}
 
 .imgjury{
-	width: 180px;
-	height: 180px;
+	max-width: 100%;
 }
 
 .E{
