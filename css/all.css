@@ -171,6 +171,15 @@ ul.footer-contact {
 
 /* -- Contact -- */
 
+.infomail {
+	font-size: 40px;
+}
+
+.mail {
+	font-size: 60px;
+	font-family: Ubuntu;
+}
+
 .photo-pitcher {
 	/*width: 23%;*/
 	margin-right: 16px;
@@ -186,21 +195,54 @@ ul.footer-contact {
     padding: 0 auto;
 }
 
-.ui.grid {
+#contact {
 	width: 960px;
-	height: 300px;
+	height: 500px;
 	margin: 0 auto;
-	text-align: center;
+	margin-left: 200px;
 }
 
 .column {
 	width: 960px;
+	height: 100px;
 	margin: 0 auto;
 }
 
-.btnn {
-	width: 50px;
-	height: 30px;
+.ui.linkedin.button {
+	width: 100px;
+	height: 50px;
+	margin-left: 50px;
+}
+
+.ui.twitter.button.perso {
+	width: 100px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.prenom1 {
+	margin-left: 60px;
+	font-family: Fugaz One;
+}
+
+.prenom2 {
+	margin-left: 65px;
+	font-family: Fugaz One;
+}
+
+.prenom3 {
+	margin-left: 68px;
+	font-family: Fugaz One;
+}
+
+.prenom4 {
+	margin-left: 65px;
+	font-family: Fugaz One;
+}
+
+.email {
+	color: #0277BD;
 }
 
 /* -- Start-up -- */
@@ -385,20 +427,22 @@ p {
 }
 
 
-h2 {
+.xpairstitle {
 	padding-bottom: 5px;
-	font-family: Fugaz One;
+	font-family: Ubuntu;
 	color:#0277bd;
 	text-align: center;
+	margin: auto;
+	font-size: 30px;
 } 
 
-h3 {
-	padding-bottom: 5px;
+.xpairssubt {
 	color:black;
 	text-align: center;
 	font-family: Ubuntu;
 	text-align: justify;
 	font-size: 18px;
+	margin: auto;
 } 
 
 
@@ -406,6 +450,7 @@ h3 {
 	width: 960px;
 	margin: auto;
 	text-align: center;
+	margin-bottom: 60px;
 }
 
 .ali-column{
@@ -415,7 +460,23 @@ h3 {
 }
 .imgjury{
 	max-width: 100%;
+	width: 180px;
+	height: 180px;
 }
+
+.E{
+	text-decoration: none;
+	color: black;
+}
+
+.xpairs{
+	font-size: 100px;
+	color: #0277BD;
+	text-shadow: 2px 2px 1px #606060;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
 
 /* -- Lieux -- */
 
@@ -437,7 +498,6 @@ container {
 .lieu {
 	width: 960px;
 	height: auto;
-	border-style: solid;
 	padding: 40px;
 	margin: auto;
 	margin-bottom: 50px; 
