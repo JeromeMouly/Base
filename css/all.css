@@ -190,6 +190,7 @@ ul.footer-contact {
 	width: 960px;
 	height: 300px;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .column {
@@ -197,6 +198,10 @@ ul.footer-contact {
 	margin: 0 auto;
 }
 
+.btnn {
+	width: 50px;
+	height: 30px;
+}
 
 /* -- Start-up -- */
 
