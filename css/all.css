@@ -407,7 +407,12 @@ p {
 	font-family: Ubuntu;
 	font-size: 35px;
 	color: #fff;
+}
 
+#lien {
+	color: #0277BD;
+	margin-left: -110px;
+}
 
 /* -- Xpairs -- */
 
