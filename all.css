@@ -9,7 +9,7 @@ div.photo {
 	vertical-align: middle;
 }
 
-h1.titre {
+h1 {
 	text-align: center;
 	padding-top: 50px;
 	font-family: Fugaz One;
@@ -19,23 +19,22 @@ h1.titre {
 }
 
 h1.photo {
-	font-size: 125px;
+	font-size: 100px;
 	text-align: center;
 	padding-top: 300px;
 	color: #fff;
 }
 
 h2.photo {
-	font-size: 75px;
-	text-align: center;
-	color: #4FC3F7;
+	font-size: 100px;
+	color: #0277BD;
 }
 
-h2.next {
+h2 {
 	text-align: center;
 	padding-bottom: 25px;
 	font-family: Fugaz One;
-	font-size: 75px;
+	font-size: 80px;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	color: #0277BD;
@@ -46,14 +45,12 @@ h2.infomail {
 	font-family: Ubuntu;
 }
 
-h3.next {
+h3 {
 	text-align: center;
 	padding-top: 50px;
 	font-family: Fugaz One;
-	font-size: 50px;
+	font-size: 30px;
 	padding: 0;
-	margin: 0 auto;
-	color: #0277BD;
 }
 
 
@@ -116,37 +113,11 @@ ul.footer-contact {
 
 /* -- Index -- */
 
-.bloc {
-	width: 960px;
-	height: 400px;
-	vertical-align: middle;
-	margin-left: auto;
-    margin-right: auto;
-    /*background: #cecece;*/
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: justify;
-    padding: 10px 10px 10px 10px;
-}
-
-.presentation {
-	font-family: Ubuntu;
-	font-size: 18px;
-    vertical-align: middle;
-}
-
 .next-meetup {
 	width: 960px;
-	height: 300px;
-	vertical-align: middle;
-	margin-left: auto;
-    margin-right: auto;
-    /*background: #cecece;*/
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: justify;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .inscription {
@@ -230,30 +201,21 @@ ul.footer-contact {
 	font-size: 18px;
 }
 
-h1.titre {
-	color: #0277BD;
+/*h1{
 	text-align: center;
-	font-size: 85px;
+	font-size: 60px;
 	font-family: Fugaz One;
-	margin-bottom: 100px;
 }
 
-h2.startup {
-	color: #0277BD;
+h2 {
 	text-align: center;
 	font-family: Fugaz One;
-	font-size: 40px;
-	margin-bottom: 60px;
+	font-size: 25px;
 }
 
-h3.startup {
+h3 {
 	text-align: center;
-}
-
-a.lienstartup {
-	text-align: center;
-	font-size: 35px;
-}
+}*/
 
 img.myteleworker {
 	margin-left: 40px;
@@ -309,7 +271,7 @@ img.mamieregale {
 	font-family: Ubuntu;
 }
 
-h1 {
+/*h1 {
 	text-align: center;
 	font-size: 60px;
 	font-family: Fugaz One;
@@ -324,7 +286,7 @@ h3 {
 	text-align: center;
 	font-family: Fugaz One;
 	font-size: 25px;
-}
+}*/
 
 p {
 	font-size: 18px;
@@ -352,7 +314,7 @@ p{
 }
 
 
-h2 {
+/*h2 {
 	padding-bottom: 5px;
 	font-family: Fugaz One;
 	color:#0277bd;
@@ -366,7 +328,7 @@ h3 {
 	font-family: Ubuntu;
 	text-align: justify;
 	font-size: 18px;
-} 
+}*/
 
 
 .grid{
@@ -422,10 +384,9 @@ p{
 	font-size: 18px;
 }
 
-
-h2 {
+/*h2 {
 	margin-left: 100px;
 	padding-bottom: 5px;
 	font-family: Fugaz One;
 	color:#0277bd;
-} 
+} */
