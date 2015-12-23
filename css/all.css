@@ -236,11 +236,12 @@ ul.footer-contact {
 }
 
 h1.titre {
-	color: #0277BD;
 	text-align: center;
-	font-size: 85px;
+	padding-top: 50px;
 	font-family: Fugaz One;
-	margin-bottom: 100px;
+	font-size: 100px;
+	color: #0277BD;
+	text-shadow: 2px 2px 1px #606060;
 }
 
 h2.startup {
@@ -306,18 +307,23 @@ img.mamieregale {
 /* -- Meet-Up -- */
 
 .meetup {
-	border: solid;
+	/*border: solid;*/
+	background-color: #0277BD;
 	width: 960px;
-	height: 150px;
+	height: 200px;
 	margin: 30px auto 20px;
 	padding: 20px;
 	font-family: Ubuntu;
+	color: #fff;
 }
 
-h1 {
+h1.titre {
 	text-align: center;
-	font-size: 60px;
+	padding-top: 50px;
 	font-family: Fugaz One;
+	font-size: 100px;
+	color: #0277BD;
+	text-shadow: 2px 2px 1px #606060;
 }
 
 h2 {
@@ -325,10 +331,10 @@ h2 {
 	font-family: Fugaz One;
 }
 
-h3 {
+h3.pitch {
 	text-align: center;
 	font-family: Fugaz One;
-	font-size: 25px;
+	font-size: 35px;
 }
 
 p {
@@ -336,21 +342,43 @@ p {
 }
 
 #bouton {
-	font-family: Fugaz One;
-	text-align: center;
-	margin: 30px auto 30px;
-} 
+	width: 300px;
+	height: 80px;
+	background-color: #0277BD;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	font-family: Ubuntu;
+	font-size: 35px;
+	color: #fff;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
 
 .btn {	
 	width: 300px;
 	height: 80px;
-	font-size: 18px;
-}
+	background-color: #0277BD;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: Ubuntu;
+	font-size: 35px;
+	color: #fff;
 
 
 /* -- Xpairs -- */
 
-p{
+h1.titre {
+	text-align: center;
+	padding-top: 50px;
+	font-family: Fugaz One;
+	font-size: 100px;
+	color: #0277BD;
+	text-shadow: 2px 2px 1px #606060;
+}
+
+p {
 	font-family: Ubuntu;
 	text-align: justify;
 	font-size: 18px;
@@ -390,6 +418,15 @@ h3 {
 }
 
 /* -- Lieux -- */
+
+h1.titre {
+	text-align: center;
+	padding-top: 50px;
+	font-family: Fugaz One;
+	font-size: 100px;
+	color: #0277BD;
+	text-shadow: 2px 2px 1px #606060;
+}
 
 container {
 	width:940px;
