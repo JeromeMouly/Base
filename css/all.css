@@ -23,6 +23,7 @@ h1.photo {
 	text-align: center;
 	padding-top: 300px;
 	color: #fff;
+	font-family: Fugaz One;
 }
 
 h2.photo {
@@ -44,6 +45,7 @@ h2.next {
 
 h2.infomail {
 	font-family: Ubuntu;
+	text-align: center;
 }
 
 h3.next {
@@ -178,6 +180,8 @@ ul.footer-contact {
 .mail {
 	font-size: 60px;
 	font-family: Ubuntu;
+	text-align: center;
+	margin-bottom: 100px;
 }
 
 .photo-pitcher {
@@ -199,7 +203,6 @@ ul.footer-contact {
 	width: 960px;
 	height: 500px;
 	margin: 0 auto;
-	margin-left: 200px;
 }
 
 .column {
@@ -360,6 +363,7 @@ img.mamieregale {
 }
 
 h1.titre {
+	margin: 0 auto;
 	text-align: center;
 	padding-top: 50px;
 	font-family: Fugaz One;
@@ -368,9 +372,20 @@ h1.titre {
 	text-shadow: 2px 2px 1px #606060;
 }
 
-h2 {
+h2.prochain {
 	text-align: center;
 	font-family: Fugaz One;
+	color: #0277BD;
+}
+
+a.lien {
+	color: #0277BD;
+	margin: 0 auto;
+	font-size: 55px;
+}
+
+a.lien:hover {
+	color: #81d4fa;
 }
 
 h3.pitch {
