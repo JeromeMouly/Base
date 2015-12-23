@@ -197,8 +197,9 @@ ul.footer-contact {
 
 #contact {
 	width: 960px;
-	height: 400px;
+	height: 500px;
 	margin: 0 auto;
+	margin-left: 200px;
 }
 
 .column {
@@ -209,7 +210,7 @@ ul.footer-contact {
 
 .ui.linkedin.button {
 	width: 100px;
-	height: 45px;
+	height: 50px;
 	margin-left: 50px;
 }
 
@@ -238,6 +239,10 @@ ul.footer-contact {
 .prenom4 {
 	margin-left: 65px;
 	font-family: Fugaz One;
+}
+
+.email {
+	color: #0277BD;
 }
 
 /* -- Start-up -- */
