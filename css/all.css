@@ -409,11 +409,6 @@ p {
 	color: #fff;
 }
 
-#lien {
-	color: #0277BD;
-	margin-left: -110px;
-}
-
 /* -- Xpairs -- */
 
 h1.titre {
@@ -458,14 +453,9 @@ p {
 	margin-bottom: 60px;
 }
 
-.ali-column{
-	width: 26%;
-	display: inline-block;
-	margin: 30px;
-}
+
 .imgjury{
-	width: 180px;
-	height: 180px;
+	max-width: 100%;
 }
 
 .E{
